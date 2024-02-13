@@ -1,0 +1,2 @@
+class ElementNotVisible(Exception):
+    pass

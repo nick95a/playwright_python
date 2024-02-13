@@ -1,0 +1,234 @@
+[
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "playwright",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "playwright",
+        "description": "playwright",
+        "detail": "playwright",
+        "documentation": {}
+    },
+    {
+        "label": "AuthExpectedValues",
+        "importPath": "expected_values",
+        "description": "expected_values",
+        "isExtraImport": true,
+        "detail": "expected_values",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "assert_text_content",
+        "kind": 2,
+        "importPath": "assertions.base_assertions",
+        "description": "assertions.base_assertions",
+        "peekOfCode": "def assert_text_content(element, expected_value):\n    assert element.text_content() == expected_value, f\"Value is not {expected_value}\"\ndef check_element_is_visible(element):\n    expect(element, f\"Элемент {element} не отображается\").to_be_visible()\ndef check_element_contains_text(element, expected_text):\n    expect(element, \"Элемент не содержит текст\").to_contain_text(expected_text)\ndef check_input_has_value(element, expected_value):\n    expect(element, \"Input элемент не содержит значение\").to_have_value(expected_value)\ndef check_website_has_url(element, expected_url):\n    expect(element, \"У веб-страницы другой url\").to_have_url(expected_url)",
+        "detail": "assertions.base_assertions",
+        "documentation": {}
+    },
+    {
+        "label": "check_element_is_visible",
+        "kind": 2,
+        "importPath": "assertions.base_assertions",
+        "description": "assertions.base_assertions",
+        "peekOfCode": "def check_element_is_visible(element):\n    expect(element, f\"Элемент {element} не отображается\").to_be_visible()\ndef check_element_contains_text(element, expected_text):\n    expect(element, \"Элемент не содержит текст\").to_contain_text(expected_text)\ndef check_input_has_value(element, expected_value):\n    expect(element, \"Input элемент не содержит значение\").to_have_value(expected_value)\ndef check_website_has_url(element, expected_url):\n    expect(element, \"У веб-страницы другой url\").to_have_url(expected_url)",
+        "detail": "assertions.base_assertions",
+        "documentation": {}
+    },
+    {
+        "label": "check_element_contains_text",
+        "kind": 2,
+        "importPath": "assertions.base_assertions",
+        "description": "assertions.base_assertions",
+        "peekOfCode": "def check_element_contains_text(element, expected_text):\n    expect(element, \"Элемент не содержит текст\").to_contain_text(expected_text)\ndef check_input_has_value(element, expected_value):\n    expect(element, \"Input элемент не содержит значение\").to_have_value(expected_value)\ndef check_website_has_url(element, expected_url):\n    expect(element, \"У веб-страницы другой url\").to_have_url(expected_url)",
+        "detail": "assertions.base_assertions",
+        "documentation": {}
+    },
+    {
+        "label": "check_input_has_value",
+        "kind": 2,
+        "importPath": "assertions.base_assertions",
+        "description": "assertions.base_assertions",
+        "peekOfCode": "def check_input_has_value(element, expected_value):\n    expect(element, \"Input элемент не содержит значение\").to_have_value(expected_value)\ndef check_website_has_url(element, expected_url):\n    expect(element, \"У веб-страницы другой url\").to_have_url(expected_url)",
+        "detail": "assertions.base_assertions",
+        "documentation": {}
+    },
+    {
+        "label": "check_website_has_url",
+        "kind": 2,
+        "importPath": "assertions.base_assertions",
+        "description": "assertions.base_assertions",
+        "peekOfCode": "def check_website_has_url(element, expected_url):\n    expect(element, \"У веб-страницы другой url\").to_have_url(expected_url)",
+        "detail": "assertions.base_assertions",
+        "documentation": {}
+    },
+    {
+        "label": "ElementNotVisible",
+        "kind": 6,
+        "importPath": "exceptions.base_exceptions",
+        "description": "exceptions.base_exceptions",
+        "peekOfCode": "class ElementNotVisible(Exception):\n    pass",
+        "detail": "exceptions.base_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AuthPage",
+        "kind": 6,
+        "importPath": "pages.auth_page",
+        "description": "pages.auth_page",
+        "peekOfCode": "class AuthPage(BasePage):\n    def click_on_login_button(self):\n        pass\n    def enter_into_login_field(self):\n        pass\n    def enter_into_password_field(self):\n        pass\n    def recover_access(self):\n        pass",
+        "detail": "pages.auth_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "kind": 6,
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "peekOfCode": "class BasePage:\n    def __init__(self, browser):\n        self.browser = browser\n    def element_to_be_visible(self, locator, state = 'visible', timeout = 30000):\n        try:\n            element = self.browser.locator(locator)\n            return element.wait_for(state = state, timeout = timeout)\n        except:\n            raise ElementNotVisible(locator)\n    def element_to_be_clickable(self):",
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "TestAuthPage",
+        "kind": 6,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "class TestAuthPage:\n    @pytest.mark.skip\n    @pytest.mark.smoke\n    @pytest.mark.login\n    @pytest.mark.ui\n    def test_auth_page_url(self, auth_fixture):\n        \"\"\"Проверка наличия визуальных элементов на странице авторизации\"\"\"\n        auth_page = AuthPage(auth_fixture).browser\n        current_url = auth_page.url()\n        assert current_url.find(URI.MAIN_HOST) != -1, \"Текущий URL отличается от ожидаемого\"",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth_fixture",
+        "kind": 2,
+        "importPath": "conftest",
+        "description": "conftest",
+        "peekOfCode": "def auth_fixture(request):\n    \"\"\"Фикстура для создания браузера и его настроек\"\"\"\n    with sync_playwright() as playwright:\n        browser = playwright.chromium.launch(headless=False)\n        chrome_context = browser.new_context()\n        auth_page = chrome_context.new_page()\n        auth_page.goto(request.param)\n        yield auth_page\n        auth_page.close()\n        browser.close()",
+        "detail": "conftest",
+        "documentation": {}
+    },
+    {
+        "label": "@pytest.fixture(scope",
+        "kind": 5,
+        "importPath": "conftest",
+        "description": "conftest",
+        "peekOfCode": "@pytest.fixture(scope = \"class\", params = [URI.MAIN_HOST])\ndef auth_fixture(request):\n    \"\"\"Фикстура для создания браузера и его настроек\"\"\"\n    with sync_playwright() as playwright:\n        browser = playwright.chromium.launch(headless=False)\n        chrome_context = browser.new_context()\n        auth_page = chrome_context.new_page()\n        auth_page.goto(request.param)\n        yield auth_page\n        auth_page.close()",
+        "detail": "conftest",
+        "documentation": {}
+    },
+    {
+        "label": "AuthExpectedValues",
+        "kind": 6,
+        "importPath": "expected_values",
+        "description": "expected_values",
+        "peekOfCode": "class AuthExpectedValues:\n    LOGIN_PLACEHOLDER = \"Логин\"\n    PASSWORD_PLACEHOLDER = \"Пароль\"\n    EYE_ICON_DEFAULT_CLASS = \"eye-icon-wrapper-web on\"\n    LOGIN_BUTTON_PLACEHOLDER = \"Войти\"\n    RECOVER_LINK_PLACEHOLDER = \"Восстановить доступ\"",
+        "detail": "expected_values",
+        "documentation": {}
+    },
+    {
+        "label": "URI",
+        "kind": 6,
+        "importPath": "input_data",
+        "description": "input_data",
+        "peekOfCode": "class URI:\n    MAIN_HOST = \"https://idemo.bspb.ru/\"",
+        "detail": "input_data",
+        "documentation": {}
+    },
+    {
+        "label": "AuthPageLocators",
+        "kind": 6,
+        "importPath": "locators",
+        "description": "locators",
+        "peekOfCode": "class AuthPageLocators:\n    MAIN_LOGO = \"xpath=//img[@id='logo']\"\n    LOGIN_FIELD = \"xpath=//input[@name='username']\"\n    PASSWORD_FIELD = \"xpath=//input[@name='password']\"\n    EYE_ICON = \"xpath=//div[contains(@class, 'eye-icon-wrapper-web')]\"\n    LOGIN_BUTTON = \"xpath=//button[@id='login-button']\"\n    RECOVER_ACCESS_LINK = \"xpath=//a[@data-target='#reset-password-dialog']\"\n    CHANGE_LANGUAGE_LINK = \"xpath=(//div[@class='secondary-links']/a)[1]\"\n    ABOUT_THE_BANK_LINK = \"xpath=(//div[@class='secondary-links']/a)[2]\"",
+        "detail": "locators",
+        "documentation": {}
+    }
+]
